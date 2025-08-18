@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeDuplicates(string s) {
-        string temp = "";
+        string temp = " ";
         int i = 0;
         
         while (i < s.length()) {
