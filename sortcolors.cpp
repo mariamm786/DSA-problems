@@ -13,7 +13,8 @@ public:
         }
        }
        //over writing 
-       int idx=0;
+       int idx;
+       idx=0;
        for(int i=0;i<countzero;i++){
          nums[idx++]=0;
        }
